@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+body{
+    background-color: azure;
+}
+
+header{
+    color: black;
+    font-size: 50px;
+    width: 1384;
+    height: 108;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    border-radius: 15px;
+    border: 0.5px solid black;
+}
+
+a{
+    color: black;
+    font-size: 25px;
+}
+
+p{
+    font-size: 25px;
+    color: cornflowerblue;
+}
+
+.champ{
+    border-radius: 30px;
+    margin-right: 150px;
+}
+
+.right{
+    height: 50px;
+    margin-bottom: 350px;
+    margin-right: 100px;
+}

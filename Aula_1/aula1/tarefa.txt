@@ -1,0 +1,2 @@
+Tarefa para a próxima aula:
+Criar dois arquivos html, no primeiro, criar uma lista sendo um dos itens um link para o segundo arquivo. No segundo, inserir uma imagem que funcionará como um link para algum site aleatório.

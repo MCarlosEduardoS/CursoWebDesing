@@ -1,0 +1,29 @@
+const express = require('express');
+const router = express.Router();
+
+const Middleware = require('../middleware/middleware')
+
+// const Login = require('../controllers/logincontrollers');
+const Pet = require('../controllers/petcontrollers');
+const Hotel = require('../controllers/hotelcontrollers');
+// const Servicos = require('../controllers/');
+
+// router.post("/login", Login.login)
+
+router.post("/Pet", Pet.create)
+router.get("/Pet", Pet.readAll)
+router.get("/Pet/:id", Pet.read)
+router.put("/Pet", Pet.update)
+router.delete("/Pet", Pet.remove)
+
+router.post("/Hotel", Hotel.create)
+router.get("/Hotel", Hotel.readAll)
+router.get("/Hotel/:id", Hotel.read)
+router.put("/Hotel", Hotel.update)
+router.delete("/Hotel", Hotel.remove)
+
+// router.post("/Servicos", Servicos.create)
+// router.get("/Servicos", Servicos.readAll)
+// router.delete("/Servicos", Servicos.remove)
+
+module.exports = router;
