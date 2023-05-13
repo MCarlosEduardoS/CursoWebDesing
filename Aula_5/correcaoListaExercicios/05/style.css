@@ -1,0 +1,27 @@
+.flex {
+    display: flex;
+}
+
+.red {
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    margin: 30px;
+    border-radius: 100%;
+}
+
+.green {
+    background-color: rgb(0, 255, 0);
+    height: 200px;
+    width: 200px;
+    margin: 30px;
+    border-radius: 100%;
+}
+
+.blue {
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+    margin: 30px;
+    border-radius: 100%;
+}

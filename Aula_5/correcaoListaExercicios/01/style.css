@@ -1,0 +1,9 @@
+.lista2,
+div {
+    display: flex;
+}
+
+.lista2 li,
+span {
+    margin: 20px;
+}

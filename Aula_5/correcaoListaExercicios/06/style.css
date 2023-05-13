@@ -1,0 +1,41 @@
+.center {
+    display: flex;
+    justify-content: center;
+    margin: 80px 0;
+}
+
+.between {
+    display: flex;
+    justify-content: space-between;
+    margin: 80px 0;
+}
+
+.evenly {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 80px 0;
+}
+
+.red {
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.green {
+    background-color: rgb(0, 255, 0);
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.blue {
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    margin: 20px;
+}

@@ -1,0 +1,63 @@
+*{
+    background-color: #292929;
+}
+img{
+    height: 180px;
+    width: 180px;
+}
+.parent {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+} 
+.div1 { grid-area: 1 / 1 / 2 / 2; }
+.div2 { grid-area: 1 / 4 / 2 / 5; }
+.div3 { grid-area: 1 / 7 / 2 / 8; }
+.div4 { grid-area: 3 / 4 / 4 / 5; }
+.div5 { grid-area: 5 / 4 / 6 / 5; }
+.div6 { grid-area: 3 / 6 / 4 / 7; }
+.div7 { grid-area: 3 / 2 / 4 / 3; }
+.div8 { grid-area: 5 / 1 / 6 / 2; }
+.div9 { grid-area: 5 / 7 / 6 / 8; }
+.div1, .div2, .div3, .div4, .div5, .div6, .div7, .div8, .div9{
+    border: 1px solid;
+    margin-top: 8px;
+    margin-left: 40px;
+    height: 180px;
+    width: 180px;
+}
+.div7{
+    margin-left: 50px;
+}
+.div8{
+    margin-left: 80px;
+}
+.div6{
+    margin-left: -50px;
+}
+.div9{
+    margin-left: -80px;
+}
+.div1, .div8{
+    background-color: #8418F0;
+}
+.div5, .div4{
+    background-color: #F09000;
+}
+.div3, .div6{
+    background-color: #13EF5D;
+}
+.leiter1, .leiter2, .leiter3{
+    margin-top: 30px;
+}
+.leiter1{
+    background-color: #8418F0;
+}
+.leiter2{
+    background-color: #13EF5D;
+}
+.leiter3{
+    background-color: #F09000;
+}

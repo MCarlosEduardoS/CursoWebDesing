@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap'); @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    display: flex;
+    background-color: black;
+    height: 90px;
+}
+.leiter{
+    display: flex;
+    margin-left: 120px;
+    margin-top: 40px;
+}
+.gmr, .str{
+    font-size: 25px;
+}
+.gmr{
+    color: #BFB434;
+}
+.str{
+    color: #FFF;
+}
+.busca{
+    display: flex;
+    justify-content: center;
+    margin-left: 530px;
+}
+.input{
+    height: 30px;
+    width: 280px;
+    margin-top: 36px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.leiter-lgn{
+    color: #FFF;
+    margin-top: 38px;
+    margin-left: 15px;
+}
+.lgn{
+    height: 22px;
+    margin-top: 38px;
+    margin-left: 500px;
+}
+.lupa{
+    height: 50px;
+    background-color: #BFB434;
+    margin-top: 38px;
+    height: 32px;
+    border-left: none;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    cursor: pointer;
+}
+.categor{
+    height: 50px;
+    width: auto;
+    border: 1px solid;
+    display: flex;
+}
+.categor p{
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 0px;
+}
+.p{
+    margin-left: 160px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.banner{
+    height: 495px;
+    filter: brightness(50%);
+}
+.bnr{
+    display: flex;
+}
+.game-promo{
+    position: absolute;
+    height: 250px;
+    margin-top: 100px;
+    margin-left: 150px;
+}
+.leiter-promo{
+    position: absolute;
+    color: #FFF;
+    font-size: 25px;
+    margin-top: 125px;
+    margin-left: 380px;
+}
+.btn{
+    background-color: #3E3E3E;
+    color: #FFF;
+    font-size: 17px;
+    margin-top: 25px;
+    width: 80px;
+    height: 30px;
+}
+img{
+    height: 80px;
+    
+}
+.table1, .table2{
+    display: flex;
+    justify-content: center;
+}
+.table1{
+    margin-top: 40px;
+}
+.table2{
+    margin-left: -78px;
+    margin-top: 40px;
+}
