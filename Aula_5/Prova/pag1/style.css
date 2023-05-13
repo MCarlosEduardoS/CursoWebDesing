@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.header{
+    display: flex;
+    justify-content: end;
+}
+.user{
+    border: 1px solid;
+    border-radius: 200%;
+    height: 45px;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.apps{
+    height: 35px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.img, .user, .apps{
+    margin-left: 15px;
+}
+.gmail, .img{
+    margin-top: 25px;
+}
+.google{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    font-size: 130px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+.g{
+    color: blue;
+}
+.o1, .e{
+    color: red;
+}
+.o2{
+    color: yellow;
+}
+.l{
+    color: green;
+}
+.busca{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    height: 30px;
+}
+.input{
+    width: 500px;
+    border: 1px solid black;
+    border-right: none;
+    border-left: none;
+}
+.camera, .microfone, .teclado, .lupa{
+    border: 1px solid black;
+    cursor: pointer;
+}
+.microfone, .teclado, .lupa{
+    border-right: none;
+}
+.microfone, .teclado, .camera{
+    border-left: none;
+}
+.camera{
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.lupa{
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
