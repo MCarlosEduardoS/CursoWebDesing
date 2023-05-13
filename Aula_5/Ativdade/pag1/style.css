@@ -51,7 +51,7 @@ a{
     display: flex;
     justify-content: center;
     margin-top: 10px;
-    height: 30px;
+    height: 40px;
 }
 .input{
     width: 500px;
@@ -76,4 +76,24 @@ a{
 .lupa{
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
+}
+.leiter{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+.pesq{
+    margin-left: -25px;
+}
+.luck{
+    margin-left: 25px;
+}
+.footer-1{
+    background-color: gray;
+    height: 35px;
+}
+.footer-2{
+    display: flex;
+    background-color: gray;
+    height: 35px;
 }
