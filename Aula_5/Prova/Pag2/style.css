@@ -84,14 +84,14 @@
     position: absolute;
     height: 250px;
     margin-top: 100px;
-    margin-left: 150px;
+    margin-left: 550px;
 }
 .leiter-promo{
     position: absolute;
     color: #FFF;
     font-size: 25px;
     margin-top: 125px;
-    margin-left: 380px;
+    margin-left: 780px;
 }
 .btn{
     background-color: #3E3E3E;
@@ -102,17 +102,43 @@
     height: 30px;
 }
 img{
-    height: 80px;
-    
+    height: 180px;
 }
-.table1, .table2{
-    display: flex;
-    justify-content: center;
+.parent p{
+    font-size: 15px;
 }
-.table1{
-    margin-top: 40px;
+.parent{
+    margin-top: -520px;
+    text-align: center;
 }
-.table2{
-    margin-left: -78px;
-    margin-top: 40px;
+.parent {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 15px;
+    grid-row-gap: 0px;
+    cursor: pointer;
+    }
+    .div1 { grid-area: 3 / 2 / 4 / 3; }
+    .div2 { grid-area: 3 / 3 / 4 / 4; }
+    .div3 { grid-area: 3 / 4 / 4 / 5; }
+    .div4 { grid-area: 3 / 5 / 4 / 6; }
+    .div5 { grid-area: 3 / 6 / 4 / 7; }
+    .div6 { grid-area: 5 / 2 / 6 / 3; }
+    .div7 { grid-area: 5 / 3 / 6 / 4; }
+    .div8 { grid-area: 5 / 4 / 6 / 5; }
+    .div9 { grid-area: 5 / 5 / 6 / 6; 
+}
+.shop{
+    background-color: #BFB434;
+    border: none;
+    color: #FFF;
+    font-size: 17px;
+    margin-top: 35px;
+    width: 80px;
+    height: 30px;
+    cursor: pointer;
+}
+.div6, .div7, .div8, .div9{
+    margin-top: -260px;
 }
