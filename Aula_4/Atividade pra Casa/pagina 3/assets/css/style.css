@@ -1,0 +1,24 @@
+body{
+    margin: 0%;
+    overflow: hidden;
+}
+a{
+    margin-left: 87%;
+}
+
+.bloco1{
+    background-color: red;
+    left: 100%;
+    padding:8%;
+}
+
+.bloco2{
+    background-color:rgb(1, 223, 1);
+    padding:8%;
+
+}
+
+.bloco3{
+    background-color: blue;
+    padding:8%;
+}

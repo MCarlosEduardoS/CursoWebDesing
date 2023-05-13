@@ -1,0 +1,35 @@
+body{
+    margin: 0%;
+    overflow: hidden;
+}
+
+a{
+    margin-left: 87%;
+}
+.fila1{
+        background-color:#CF4545;
+        height: 150px;
+        width: 100%;
+}
+
+.hmm{
+    display: flex;
+}
+
+.fila2{
+    background-color:#CD9292;
+    height: 530px;
+    width:20%;
+}
+
+.fila3{
+    background-color:#753535;
+    height:530px;
+    width:80%;
+}
+
+.fila4{
+    background-color:#9F3D3D;
+    height: 150px;
+    width: 100%;
+}

@@ -1,0 +1,37 @@
+#red{
+    background-color:red;
+    height: 100px;
+    width: 100px;
+    border-radius:100%;
+    margin-top: 2%;
+    margin-left:2% ;
+}
+#green{
+    background-color: rgb(0, 255, 0);
+    height: 100px;
+    width: 100px;
+    border-radius:100%;
+    margin-top: 2%;
+    margin-left:2% ;
+}
+#blue{
+    background-color:blue;
+    height: 100px;
+    width: 100px;
+    border-radius:100%;
+    margin-top: 2%;
+    margin-left:2% ;
+}
+.coluna{
+    margin-left:10%;
+}
+
+.linha{
+    display: flex;
+    margin-top:4%;
+    margin-left:10%;
+}
+
+a{
+    margin-left: 87%;
+}

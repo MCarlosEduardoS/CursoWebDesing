@@ -1,0 +1,30 @@
+body{
+    margin: 0%;
+}
+
+a{
+    margin-left: 80%;
+}
+
+.hmm{
+    display: flex;
+    margin:0%;
+}
+
+.bloco1{
+    background-color: red;
+    height: 824px;
+    width: 650px;
+}
+
+.bloco2{
+    background-color: rgb(0, 255, 0);
+    height: 824px;
+    width: 650px;
+}
+
+.bloco3{
+    background-color: blue;
+    height: 824px;
+    width: 650px;
+}

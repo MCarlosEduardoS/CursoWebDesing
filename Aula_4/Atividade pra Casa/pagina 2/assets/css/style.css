@@ -1,0 +1,38 @@
+
+#bela{
+    position: absolute;
+    margin-top:13%;
+    margin-left:35%;
+}
+
+a{
+    margin-left: 87%;
+}
+td{
+    font-size:25px;
+
+    
+}
+th{
+    border-bottom: 1px solid black; 
+    font-size: 27px;
+}
+
+#fila2 td{
+    border-bottom: 1px solid rgb(179, 166, 166);
+    padding:1%;
+}
+#fila3 td{
+    border-bottom: 1px solid rgb(179, 166, 166);
+    padding: 1%;
+}
+
+#fila4 td{
+    padding:1%
+}
+
+#fila2 td{
+
+    margin: 10%;
+}
+

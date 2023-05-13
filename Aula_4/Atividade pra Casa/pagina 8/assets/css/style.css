@@ -1,0 +1,48 @@
+body{
+    margin: 0%;
+}
+.hmm{ 
+    background-color:#CF4545;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+h3{
+    display: flex;
+    margin: 1%;
+    color: rgb(255, 255, 255);
+}
+
+.ain{
+display: flex;
+}
+
+ain .img{
+    border-radius: 10%;
+}
+
+.main{
+    background-color:#630c0c;
+    height: 680px;
+    width: 100%;   
+}
+
+.footer{
+    background-color:white;
+    height: 40px;
+    width: 20%; 
+    border-radius:20px;
+    margin-top:10px;
+    margin-right:10px;
+    margin: 1%;
+}
+
+.hmm2{
+    display: flex;
+    background-color:#CF4545;
+    height: 70px;
+    width: 100%;
+    justify-content: end;
+}
