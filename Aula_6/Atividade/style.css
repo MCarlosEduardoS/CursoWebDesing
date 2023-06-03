@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+header{
+    display: flex;
+}
+.arroz{
+    height: 80px;
+    margin-left: 3vh;
+}
+.head{
+    height: 10vh;
+    background-color: rgb(73, 73, 73);
+}
+.head-leiter{
+    margin-top: 0.9vh;
+    font-size: 2vh;
+    color: rgb(255, 255, 255);
+    margin-left: 1vh;
+}
+.category{
+    display: flex;
+    background-color: rgb(153, 152, 152);
+}
+.category p{
+    padding: 1vh;
+    cursor: pointer;
+    font-size: 1.8vh;
+    margin-left: 4vh;
+}
+.home{
+    color: rgb(255, 255, 255);
+}
+.prod{
+    height: 25vh;
+    width: 40vh;
+}
+.prod-name{
+    font-size: 2vh;
+    margin-left: 1vh;
+}
+.table1, .table2{
+    display: flex;
+    height: 35vh;
+    width: 110vh;
+    margin-top: 5vh;
+    margin-left: 5vh;
+}
+.table{
+    height: 20vh;
+    width: 130vh;
+    margin-top: 3vh;
+    margin-left: 5vh;
+}
+.table-leiter{
+    justify-content: center;
+    width: 28vh;
+}
+.borda{
+    border: 1px solid black;
+    width: fit-content;
+    margin: 30px;
+}
+.title-table{
+    font-size: 3vh;
+}
+.red{
+    color: red;
+}
+.subtitle-table, .red{
+    margin-top: 1vh;
+}
+.cardapio{
+    width: 25vh;
+    height: 27vh;
+    margin-top: -30vh;
+    margin-left: 130vh;
+}
+.cardapio p{
+    color: red;
+}
+.cdp-leiter{
+    font-size: 3vh;
+}
+.leiter-cdp{
+    margin-left: 2vh;
+    margin-top: 4vh;
+    cursor: pointer;
+    border-bottom: 1px solid gray;
+}
+.endereco{
+    width: 25vh;
+    height: 27vh;
+    margin-top: -30vh;
+    margin-left: 130vh;
+}
+.leiter-cnt{
+    font-size: 3vh;
+    color: red;
+}
+.leiter-princ{
+    margin-top: 2vh;
+}
+.leiter,  .leiter-princ{
+    margin-left: 2vh;
+    cursor: pointer;
+    color: black;
+}
