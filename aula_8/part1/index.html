@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+  <title>Tabela de Médias</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+        <table>
+          <thead>
+            <tr>
+              <th>Matéria</th>
+              <th>Notas</th>
+              <th>Média</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Matemática</td>
+              <td>
+                <input type="number" class="nota" min="0" max="10">
+                <input type="number" class="nota" min="0" max="10">
+                <input type="number" class="nota" min="0" max="10">
+                <input type="number" class="nota" min="0" max="10">
+              </td>
+              <td><span class="media"></span></td>
+            </tr>
+            <tr>
+              <td>Português</td>
+              <td>
+                <input type="number" class="nota" min="0" max="10">
+                <input type="number" class="nota" min="0" max="10">
+                <input type="number" class="nota" min="0" max="10">
+                <input type="number" class="nota" min="0" max="10">
+              </td>
+              <td><span class="media"></span></td>
+            </tr>
+            <tr>
+              <td>Física</td>
+              <td>
+                <input type="number" class="nota" min="0" max="10">
+                <input type="number" class="nota" min="0" max="10">
+                <input type="number" class="nota" min="0" max="10">
+                <input type="number" class="nota" min="0" max="10">                                          
+              </td>
+              <td><span class="media"></span></td>
+            </tr>
+          </tbody>
+        </table>
+        <button onclick="calcularMedias()">Calcular Médias</button>
+      </div>
+  
+</body>
+<script src="script.js"></script>
+</html>

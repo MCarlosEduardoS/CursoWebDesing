@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+  <title>Tabela de Médias</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+        <table id="tabela-medias">
+          <thead>
+            <tr>
+              <th>Bimestre</th>
+              <th>Notas</th>
+              <th>Média</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <input type="text" class="bimestre" value="1">
+              </td>
+              <td>
+                <input type="number" class="nota" min="0" max="10">
+              </td>
+              <td><span class="media"></span></td>
+            </tr>
+          </tbody>
+        </table>
+        <button onclick="adicionarBimestre()">Adicionar Bimestre</button>
+        <button onclick="removerBimestre()">Remover Bimestre</button>
+        <button onclick="calcularMedias()">Calcular Médias</button>
+      </div>
+</body>
+<script src="script.js"></script>
+</html>
